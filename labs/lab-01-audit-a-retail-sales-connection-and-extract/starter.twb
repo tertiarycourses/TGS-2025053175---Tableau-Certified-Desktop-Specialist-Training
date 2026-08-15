@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<workbook original-version='2022.3' source-build='2022.3.0' source-platform='win' version='18.1'>
+  <preferences />
+  <datasources />
+  <worksheets><worksheet name='Start Here'><table><view><datasources /></view><style /></table></worksheet></worksheets>
+  <windows><window class='worksheet' name='Start Here' /></windows>
+  <thumbnails><thumbnail height='192' name='Start Here' width='192'><![CDATA[]]></thumbnail></thumbnails>
+</workbook>

@@ -1,0 +1,30 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Confidential WSQ assessment materials
+/assessment/
+/assessment\ /
+
+# Source/reference material and local toolchain
+**/reference/
+/.claude/
+/courseware/build/
+/courseware/assets/
+/courseware/archive/
+/courseware/qa/
+/courseware/slide_map.json
+
+# Rebuildable or local files
+*.zip
+.DS_Store
+__pycache__/
+*.pyc
+~$*
+*.tmp
+*.log
