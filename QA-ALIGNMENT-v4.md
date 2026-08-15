@@ -6,7 +6,7 @@ QA date: 15 August 2026
 
 ## Overall verdict
 
-**PASS.** The generated courseware, lab package and assessment set satisfy the current WSQ build requirements and the user brief. The Google Drive release was dry-run first, uploaded to the user-supplied folder, read back, and checked for answer-key privacy. The LMS/TMS operation was intentionally a dry-run only because the requested `/tms-push-qa` command is not installed.
+**PASS.** The generated courseware, lab package and assessment set satisfy the current WSQ build requirements and the user brief. The Google Drive release was dry-run first, uploaded to the verified course folder, read back, and checked for answer-key privacy. LMS/TMS was then updated through a full read-modify-write and independently verified against a protected before-snapshot.
 
 ## A. PPT quality audit — PASS
 
@@ -71,7 +71,8 @@ QA date: 15 August 2026
 - `COURSEWARE_LINK` is stored in the ignored root `.env`.
 - Superseded Drive files were moved to per-folder `archive/` locations rather than deleted.
 - Drive link readback identified the current trainer slide, learner slide, LG, LP, two candidate papers and Activities folder.
-- LMS/TMS dry-run resolved the exact course record and proposed only the verified new artifact URLs; nothing was written to LMS/TMS.
+- LMS/TMS production update resolved the exact course record and wrote all seven learner-facing URLs: trainer slides, learner slides, LG, LP, Labs, WA and PP.
+- Post-write verification passed for the flat URL fields and nested assessment methods; answer keys were withheld, the unused practical method was disabled, all unrelated course fields were unchanged, and the mode-600 snapshot was deleted on success.
 
 ## Source preservation
 
