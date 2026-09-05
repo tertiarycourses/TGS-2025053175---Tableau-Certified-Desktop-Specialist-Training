@@ -80,6 +80,20 @@ A `Control` sheet states the expected counts so learners can reconcile the clean
 - Confidential `assessment/`, `reference/`, build tools, assets and `.env` remain excluded from the public GitHub release.
 - Superseded versions are archived rather than deleted.
 
+## E2. Publication — verified 5 September 2026
+
+The v5 set was published after the re-audit returned PASS.
+
+| Channel | Result |
+|---|---|
+| GitHub | 4 commits pushed to `main`. README rewritten as the course landing page; repo description and topics updated. Assessments, reference material and `.env` remain excluded. |
+| Google Drive | All v4 files moved to per-folder `archive/`; v5 deck, LG, LP and four assessment DOCX uploaded; 45 lab files synced to `Activities/` (11 lab folders). Nothing deleted. |
+| LMS-TMS | All 7 courseware URLs written to course `TGS-2025053175` and read back. Each link was fetched and confirmed public and serving the expected filename. |
+
+**Answer keys were not published to the LMS.** The two answer-key Drive file ids appear zero times
+on the course record; only the WA (SAQ) and PP question papers are linked. The keys remain in the
+Drive `Assessment` folder for trainers.
+
 ## Source preservation
 
 The 688-slide legacy deck remains the coverage floor for Topics 1–4. The 321-slide Tableau Prep reference deck is the source for the new Topic 1 cleansing section and Lab 11; its click-by-click sequences were condensed into concept-led objective slides, with the procedural detail placed in the Learner Guide and the Lab 11 README. See `SOURCE-COVERAGE-v5.md` for the detailed mapping.
