@@ -17,6 +17,23 @@ v5 retitles the course and extends Topic 1 with data cleansing in Tableau Prep B
 | Assessment | WA question K1 and PP task A1 rewritten to assess Tableau Prep cleansing. Instrument structure unchanged: WA (SAQ) + PP, four items each, one hour each. |
 | Version | v4 → v5; superseded artifacts moved to `courseware/archive/` and `assessment/archive/`. |
 
+## Defects found and fixed during v5 QA
+
+An independent audit of the first v5 build returned FAIL. All six defects were fixed and the artifacts rebuilt.
+
+| # | Defect | Fix |
+|---|---|---|
+| 1 | Slide 159 eyebrow read "SALESFORCE CERTIFIED TABLEAU DESKTOP FOUNDATIONS" — the retitle had corrupted the credential name, which contradicted slide 158 | Restored to "SALESFORCE CERTIFIED TABLEAU DESKTOP SPECIALIST" |
+| 2 | The Lesson Plan labelled 480 minutes as instruction while 20 of those minutes are tea breaks | Totals line now states the 480-minute day, the 20 minutes of tea break counted within it, and the 460 minutes of direct instruction |
+| 3 | Deck schedule slides 8–9 still showed the pre-Lab-11 plan and disagreed with the Lesson Plan | Both slides rebalanced to mirror the LP, with Lab 11 shown |
+| 4 | Five "ten labs" references survived in the deck, LG and LP | Changed to "eleven"; LP Resources now also lists Tableau Prep Builder |
+| 5 | v4 files deleted but uncommitted while v5 files were untracked | Committed so only v5 is tracked |
+| 6 | The PP scenario named only the Lab 10 workbook while Task 1 required the Lab 11 workbook | Scenario now declares both data files and which tasks use each |
+
+A latent layout bug surfaced while fixing defect 3: `two_col` silently truncated to five bullets per
+column, which had dropped "1:00 Lunch" and "6:00 End" from the schedule slides. It now asserts
+instead of truncating, so an overlong column fails the build rather than quietly losing content.
+
 ## A. Deck — 165 slides
 
 - Cover shows a single `v5` label matching the `-v5` PPTX filename, with the new course title.
