@@ -1,4 +1,4 @@
-# Tableau Certified Desktop Specialist Training
+# Tableau Desktop Foundations
 
 Exam-domain-aligned WSQ courseware for **TGS-2025053175**, delivered by Tertiary Infotech Academy Pte Ltd.
 
@@ -7,20 +7,21 @@ Exam-domain-aligned WSQ courseware for **TGS-2025053175**, delivered by Tertiary
 ## Package
 
 - Visual, concept-led PowerPoint deck with editable native charts and no click-by-click lab procedures.
+- Topic 1 covers data cleansing with Tableau Prep Builder: profiling, type repair, splits, Group and Replace, pivot, union, join and flow output.
 - Official certification details and an end-of-deck practice-exam slide with clickable link and QR code.
 - Detailed Learner Guide with all lab procedures.
 - Two-day Lesson Plan mapped to actual slide numbers.
-- Ten progressive, individually foldered labs with realistic synthetic Excel data and Tableau starter workbooks.
+- Eleven progressive, individually foldered labs with realistic synthetic Excel data and Tableau starter workbooks, including a Tableau Prep Builder data-cleansing lab.
 - WSQ Written Assessment and Practical Performance papers plus trainer-only answer keys (Drive-only; excluded from GitHub).
 
-## Official exam-domain alignment
+## Course topics and exam-domain alignment
 
 | Domain | Weight | Labs |
 |---|---:|---|
-| Connecting to and preparing data | 23% | 1–3 |
-| Exploring and analysing data | 37% | 4–7 |
-| Sharing insights | 25% | 8–9 |
-| Understanding Tableau concepts | 15% | 10 and all-domain review |
+| Connecting to and Preparing Data in Tableau Desktop | 23% | 1–3, 11 |
+| Exploring and Analyzing Data in Tableau Desktop | 37% | 4–7 |
+| Sharing Insights with Dashboards and Workbooks | 25% | 8–9 |
+| Understanding Tableau Concepts and Certification Preparation | 15% | 10 and all-domain review |
 
 ## Lab structure
 

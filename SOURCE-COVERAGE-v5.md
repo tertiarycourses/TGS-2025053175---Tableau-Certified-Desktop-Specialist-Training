@@ -1,8 +1,9 @@
-# Source Coverage — v4
+# Source Coverage — v5
 
 ## Source set
 
 - Legacy trainer deck: `reference/WSQ - Master Trainer Slides - Tableau Certified Desktop Specialist Training - v3.pptx` (688 slides)
+- Data cleansing reference: `reference/Data Cleansing with TABLEAU PREP (Full Notes) - Dr Alvin Ang.pptx` (321 slides) — source for the Topic 1 Tableau Prep Builder section and Lab 11
 - Official Tableau Desktop Specialist exam guide (four domains and 56 listed objectives)
 - Official Tableau free Desktop training topics
 - Current Salesforce certification details and the supplied Tableau Desktop Specialist practice-exam page
@@ -18,6 +19,7 @@ The legacy deck's useful concepts were retained and reorganised around the curre
 | Live connections, extracts, refresh and saved data sources | Topic 1 objectives 1.1.1–1.1.5; Labs 1 and 3 |
 | Logical/physical tables, relationships, joins, unions and validation | Topic 1 objectives 1.2.1–1.2.3; Labs 2–3 |
 | Field names, aliases, geographic roles, data types and defaults | Topic 1 objectives 1.3.1–1.3.5; Labs 1 and 3 |
+| Tableau Prep Builder cleansing: Data Interpreter, profile pane, type repair, clean operations, split, filters/nulls/duplicates, Group and Replace, pivot, union/join/aggregate, calculations and flow output | Topic 1 objectives 1.4.1–1.4.10; Lab 11 |
 | Bar, line, scatter, maps, combined/dual axis, stacked, density and crosstab views | Topic 2 objectives 2.1.1–2.1.9; Lab 4 |
 | Groups, sets, hierarchies and filters | Topic 2 objectives 2.2.1–2.2.5; Lab 5 |
 | Sorts, reference lines, table calculations, bins, calculations, parameters and totals | Topic 2 objectives 2.3.1–2.3.7; Lab 6 |
