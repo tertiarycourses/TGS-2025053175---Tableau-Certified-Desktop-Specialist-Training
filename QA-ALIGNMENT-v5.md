@@ -30,6 +30,11 @@ An independent audit of the first v5 build returned FAIL. All six defects were f
 | 5 | v4 files deleted but uncommitted while v5 files were untracked | Committed so only v5 is tracked |
 | 6 | The PP scenario named only the Lab 10 workbook while Task 1 required the Lab 11 workbook | Scenario now declares both data files and which tasks use each |
 
+A round-2 re-audit confirmed all six fixes and returned **PASS**. It also caught one
+remaining slip in the new lab: step 1 told learners to open a "Raw Transactions" sheet that
+does not exist in the workbook. Step 1 now points at the Q1 Transactions sheet and notes that
+Q2 and Q3 are unioned in at step 10.
+
 A latent layout bug surfaced while fixing defect 3: `two_col` silently truncated to five bullets per
 column, which had dropped "1:00 Lunch" and "6:00 End" from the schedule slides. It now asserts
 instead of truncating, so an overlong column fails the build rather than quietly losing content.

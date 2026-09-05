@@ -11,7 +11,7 @@
 ## Detailed procedure
 
 1. **Open Tableau Prep Builder and connect to Lab-11-Harbourfront-Prep-Cleansing.xlsx.**
-   Use the Raw Transactions sheet; if cosmetic title rows appear above the header, switch on Use Data Interpreter and confirm the corrected header row.
+   Start with the Q1 Transactions sheet; Q2 and Q3 are brought in and unioned at step 10. Read the Read Me, Data Dictionary and Control sheets first. If cosmetic title rows appear above the header, switch on Use Data Interpreter and confirm the corrected header row.
 2. **Add a Clean step and study the profile pane before changing anything.**
    Record which fields show dirty types, nulls, outliers or too many distinct members. The profile, not the data grid, reveals distribution problems.
 3. **Repair the Price Paid field so it can become a number.**
